@@ -1,0 +1,15 @@
+@import url ('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@import url ('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet');
+
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+
+.nav ul {
+    display: flex;
+}
+
+.themes {
+
+}

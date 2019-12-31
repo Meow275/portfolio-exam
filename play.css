@@ -3,9 +3,45 @@
 @import url ('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet');
 
 
+body {
+  margin: 0;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #2B7A78
+}
+
+.topnav a {
+  float: left;
+  color: #DEF2F1;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
+
+
+/*
 
 nav {
     display: flex;
+
 }
 
 nav ul {
@@ -14,14 +50,14 @@ nav ul {
     font-family: 'Roboto', sans-serif;
     padding-left: 0;
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 1.2em;
 }
 
 header nav ul li {
     display: block;
     padding: 0.4em;
     border: 1px solid #6393A6;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.15em;
 }
 
 
@@ -49,7 +85,7 @@ nav ul li a {
 }
 
 
-/*  GRID OF THREE  */
+
 .span_3 {
     width: 32.2%;
 }
@@ -76,7 +112,7 @@ body {
     color: #17252A;
 }
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
 
 @media only screen and (max-width: 480px) {
     .col {

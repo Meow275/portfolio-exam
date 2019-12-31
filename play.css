@@ -43,91 +43,54 @@ main {
 }
 
 
-/*
 
-nav {
-    display: flex;
-
-}
-
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    font-family: 'Roboto', sans-serif;
-    padding-left: 0;
-    text-transform: uppercase;
-    font-size: 1.2em;
-}
-
-header nav ul li {
-    display: block;
-    padding: 0.4em;
-    border: 1px solid #6393A6;
-    letter-spacing: 0.15em;
-}
-
-
-nav ul li a {
-    text-decoration: none;
-    color: #6393A6;
-}
+/*PORTFOLIO GRID*/
 
 .section {
-    padding: 0px;
-    border: 2px;
-    border-color: #DEF2F1;
-    clear: both;
-
+	clear: both;
+	padding: 0px;
+	margin: 0px;
 }
 
 .col {
-    display: block;
-    float: center;
-    margin: 1% 0 1% 1.6%;
+	display: block;
+	float:left;
+    width: 25%;
+	margin: 0;
+    padding-top: 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+
+.group:after {
+	content:"";
+	display:table;
+    clear:both;
 }
 
-.col:first-child {
-    margin-left: 0;
-}
 
 
-
-.span_3 {
-    width: 32.2%;
-}
-
-.span_2 {
-    width: 32.2%;
-}
 
 .span_1 {
-    width: 32.2%;
+	width: 25%;
+}
+.span_2 {
+	width: 25%;
+}
+.span_3 {
+	width: 25%;
+
 }
 
 .span_4 {
-    width: 32.2%;
+	width: 25%;
+
 }
 
-body {
+
+
+@media screen and (max-width: 600px) {
+  .column {
     width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden;
-    font-family: 'Noto Sans', sans-serif;
-    color: #17252A;
-}
-
-
-
-@media only screen and (max-width: 480px) {
-    .col {
-        margin: 1% 0 1% 0%;
-    }
-
-    .span_3,
-    .span_2,
-    .span_1 {
-        width: 100%;
-    }
+  }
 }

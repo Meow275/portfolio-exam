@@ -99,6 +99,14 @@ main {
     font-family: 'Noto Sans', sans-serif;
 }
 
+/*Text Portfolio */
+
+.text-span {
+    padding: 1em;
+    grid-column: 1/ span2;
+    font-size: 18px;
+    font-family: Roboto;
+}
 
 @media screen and (max-width: 600px) {
     .col {

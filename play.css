@@ -7,10 +7,31 @@ body {
     margin: 0;
 }
 
+/*
 main {
     font-family: 'Noto Sans', sans-serif;
-
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
+*/
+
+h1 {
+    margin-right: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 26px;
+}
+section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 0px;
+    padding-left: 20px;
+    padding: 5px;
+}
+
+
 
 .topnav {
     overflow: hidden;

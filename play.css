@@ -39,6 +39,12 @@ section {
     padding: 5px;
 }
 
+span {
+    margin-left: 12px;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+
 
 
 .topnav {

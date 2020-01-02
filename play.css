@@ -161,6 +161,57 @@ section {
   display: table;
 }
 
+.column-7 {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+
+
+.row-7::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column-8 {
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+
+
+.row-8::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column-9 {
+  float: left;
+  width: 23%;
+  padding: 5px;
+}
+
+.row-9::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column-10 {
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+
+.row-10::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
 /*Text below SVG*/
 
 .section-group {

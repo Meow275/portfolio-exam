@@ -333,7 +333,7 @@ footer {
 }
 
 .btn i{
-    line-height: 90px;
+    line-height: 50px; /* same as container heigth to center */
     font-size: 26px;
     transition: 0.3s linear;
 }

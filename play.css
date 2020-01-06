@@ -184,7 +184,6 @@ span {
 /* Image Containers */
 
 .column {
-  float: left;
   width: 40%;
   padding: 5px;
 }
@@ -277,6 +276,7 @@ span {
 /*Text below SVG*/
 
 .section-group {
+    width: 100%;
     position: relative;
     text-align: center;
     color: white;

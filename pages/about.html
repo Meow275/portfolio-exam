@@ -40,18 +40,26 @@
     </main>
 
     <footer style="background-color: #B4C0D9;">
+        <div class="contact-form">
+            <form onsubmit="return false"></form>
+            <div class="form-input">
+                <input type="text" placeholder="Enter your last name" id="lastName" />
+            </div>
+            <div class="form-input">
+                <input type="text" placeholder="Enter your first name" id="firstName" />
+            </div>
+            <input type="email" placeholder="Enter your email" id="email" />
+            <div class="form-input">
+                <textarea id="message" rows="5"></textarea>
+            </div>
 
-        <form onsubmit="return false"></form>
-        <input type="text" placeholder="Enter your last name" id="lastName" />
-        <br><br>
-        <input type="text" placeholder="Enter your first name" id="firstName" />
-        <br><br>
-        <input type="email" placeholder="Enter your email" id="email" />
-        <br><br>
-        <textarea id="message" rows="5"></textarea>
-        <br><br>
-        <button onclick="sendContact();">Send contact</button>
-
+            <div class="form-input">
+                <textarea name="message" rows="5"></textarea>
+            </div>
+            <div class="form-input">
+                <button onclick="sendContact();">Send contact</button>
+            </div>
+        </div>
     </footer>
 </body>
 

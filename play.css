@@ -323,6 +323,15 @@ footer {
     position: relative;
 }
 
+.contact-form {
+  padding: 10px 0;
+}
+
+.form-input * {
+  border-radius: 5px;
+  width: 100%;
+}
+
 .btn i{
     line-height: 90px;
     font-size: 26px;

@@ -23,11 +23,50 @@ h1 {
     font-size: 26px;
 }
 
+
+/*
 h2 {
     margin-left: 4px;
     font-family: 'Noto Sans', sans-serif;
     font-weight: lighter;
     font-size 20px;
+}
+*/
+
+p {
+ font-size: 19px;
+}
+
+figure {
+  margin-left: 0;
+}
+
+.portfolio-image {
+  width: 100%;
+  max-width: 600px;
+}
+
+.portrait-image {
+  width: 100%;
+  max-width: 450px;
+}
+
+.form-input {
+  width: 90%;
+  margin: 5px 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  p {
+    font-size: 17px; /* Responsive font */
+   }
+  figure {
+    margin-left: 40px;
+  }
+  .form-input {
+    width: 50%;
+    margin: 5px 10px;
+  }
 }
 
 section {

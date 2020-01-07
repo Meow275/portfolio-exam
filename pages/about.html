@@ -9,6 +9,7 @@
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
     <meta charset="UTF-8">
 </head>
+
 <body style="background-color: #3AAFA9;">
     <script type="text/javascript" src="../about.js"></script>
 
@@ -24,7 +25,6 @@
         <h1>It's nice to finally meet you!</h1>
         <article>
             <section>
-                <h2>Who am I?</h2>
                 <p>Allow me to break the ice. My name is Ruta and I’m originally from Vilnius, Lithuania. After almost a decade of country-hopping due to work and studies, I’ve discovered my passion—content creation. Driven by the desire to deepen my knowledge, I’m at present a first-year student at KEA’s multimedia programme.
                 </p>
                 <br>
@@ -37,24 +37,23 @@
 
     <footer style="background-color: #B4C0D9;">
         <div class="contact-form">
-            <form onsubmit="return false"></form>
-            <div class="form-input">
-                <input type="text" placeholder="Enter your last name" id="lastName" />
-            </div>
-            <div class="form-input">
-                <input type="text" placeholder="Enter your first name" id="firstName" />
-            </div>
-            <input type="email" placeholder="Enter your email" id="email" />
-            <div class="form-input">
-                <textarea id="message" rows="5"></textarea>
-            </div>
-
-            <div class="form-input">
-                <textarea name="message" rows="5"></textarea>
-            </div>
-            <div class="form-input">
-                <button onclick="sendContact();">Send contact</button>
-            </div>
+            <form onsubmit="return false">
+                <div class="form-input">
+                    <input type="text" placeholder="Enter your last name" name="lastName" />
+                </div>
+                <div class="form-input">
+                    <input type="text" placeholder="Enter your first name" name="firstName" />
+                </div>
+                <div class="form-input">
+                    <input type="email" placeholder="Enter your email" name="email" />
+                </div>
+                <div class="form-input">
+                    <textarea name="message" rows="5"></textarea>
+                </div>
+                <div class="form-input">
+                    <button onclick="sendContact();">Send contact</button>
+                </div>
+            </form>
         </div>
     </footer>
 </body>

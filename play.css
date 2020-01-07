@@ -14,6 +14,14 @@ h1 {
     font-size: 26px;
 }
 
+h2 {
+    margin-left: 25px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+
 
 p {
  font-size: 19px;
@@ -279,9 +287,6 @@ span {
 footer {
     padding: 0;
     margin: 0;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
 }
 
 /* Footer social */
@@ -292,7 +297,6 @@ footer {
     padding-top: 0.4em;
     width: 100%;
     text-align: center;
-
 }
 
 .btn {
@@ -315,6 +319,7 @@ footer {
 .form-input * {
   border-radius: 5px;
   width: 100%;
+    margin-left: 5px;
 }
 
 .btn i{
